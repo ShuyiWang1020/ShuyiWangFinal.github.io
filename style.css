@@ -1,0 +1,106 @@
+html, body {
+  text-align: center;
+}
+canvas {
+  display: block;
+}
+
+.title {
+  color:#ff0098;
+  position: fixed;
+  font-family: Brice;
+  font-size: 5vw;
+  padding: 10px;
+  margin-top:550px;
+  margin-left: 40px;
+  left: 0;
+  transition: 0.5s;
+  
+}
+
+.poem{
+  color:#fff;
+  position: fixed;
+  font-size: 1vw;
+  padding: 10px;
+  margin-top:550px;
+  margin-left: 0px;
+  left: 0;
+  text-align: left;
+}
+
+
+
+.poem2{
+  color:#00573a;
+  position: fixed;
+  font-size: 1vw;
+  padding: 0px;
+  margin-top:550px;
+  margin-left: 0px;
+  left: 0;
+  text-align: left;
+  
+}
+
+
+.container {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.nav {
+  /* border-top: 2px solid #000; */
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 1;
+  width: 100%;
+  z-index: 999;
+  
+}
+
+
+
+.menu li {
+  color:#fff;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Brice;
+  font-size: 2vw;
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+.menu li>a {
+  
+  text-decoration: none;
+  color:#fff;
+  transition: 0.5s;
+  cursor: pointer;
+ 
+}
+.menu li:hover>a {
+  transform: translate(-5px, -5px);
+}
+
+.menu li:first-child {
+  text-align: center;
+}
+
+.menu li:last-child {
+  text-align: center;
+}
+
+.menu li>a {
+  flex-grow: 1;
+  display: block;
+  font-size: 2vw;
+  padding: 5px;
+}
+
+.audio {
+display:none;
+
+}
+  
